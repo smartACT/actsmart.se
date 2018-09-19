@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" media="all">
+    <title>Welcome to ACTsmart</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#870052">
+    <meta name="theme-color" content="#870052">
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-sm navbar-default fixed-top navbar-inverse">
+        <div class="container">
+          <a class="navbar-brand" id="home" href="/"><span id="home-span">ACTsmart</span></a>
+        </div>
+      </nav>
+    </header>
+    <main role="main">
+      <div id="page-content" class="page current" aria-hidden="false">
+        <article class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="content-block">
+                <h1>Welcome to ACTsmart</h1>
+                <p>ACTsmart is a smartphone-delivered Acceptance & Commitment treatment for adults and adolescens with chronic pain.</p>
+                <p>We who are behind ACTsmart are researchers and clinicians active at Karolinska Institutet and Karolinska University Hospital, in collaboration with developers and user experience experts at Karolinska Institutet University Library, Stockholm, Sweden.</p>
+                <p>In a recent feasibility study (adults with chronic pain, N=34) ACTsmart has proven to be feasible regarding acceptability, practicality and adaptation. A limited-efficacy evaluation shows promising results. A larger clinical trial is planned for January 2019.</p>
+                <p>If you have questions, collaboration proposals or business inquiries please contact <a href="mailto:info@actsmart.se">info@actsmart.se</a></p>
+                <h2>Poster</h2>
+                <a href="Poster_IASP_Boston.pdf"><img src="poster.jpg" alt="">Smartphone delivered ACT for adults with chronic pain – a feasibility study [PDF - 935 KB]</a>
+              </div>
+            </div>
+            <aside class="col-lg-4">
+              <a href="/" class="btn btn-menu btn-block previous">Go to login</a>
+            </aside>
+          </div>
+        </article>
+      </div>
+    </main>
+    <script>
+      (function() {
+        window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+        requestAnimationFrame(function loadFonts() {
+          var h = document.getElementsByTagName('head')[0],
+            mundo = document.createElement('link'),
+            os = document.createElement('link');
+          mundo.rel = 'stylesheet';
+          mundo.href = 'https://tools.kib.ki.se/userfiles/mundo-sans/mundo.css';
+          os.rel = 'stylesheet';
+          os.href = 'https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700';
+          h.appendChild(mundo);
+          h.appendChild(os);
+        });
+      })();
+    </script>
+  </body>
+</html>
